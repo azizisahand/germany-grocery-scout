@@ -1,5 +1,12 @@
 # 🛒 German Grocery Scout
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-11111F?style=for-the-badge&logo=llama&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini%20Flash-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LlamaParse](https://img.shields.io/badge/LlamaParse-060606?style=for-the-badge&logo=json&logoColor=white)
+
 **German Grocery Scout** is a Retrieval-Augmented Generation (RAG) tool that helps you find the best deals in German supermarket brochures (*Prospekte*).
 
 Meet **AngeBOT** 🤖 (from *Angebot* meaning "offer"), your AI shopping assistant. You can ask AngeBOT questions like *"Wo gibt es diese Woche günstig Butter?"* or *"Welche Angebote hat Lidl?"*, and it will scan the provided PDF brochures to give you accurate answers with source references.
@@ -57,7 +64,7 @@ We recommend using Conda to manage environments:
 
 ```bash
 conda env create -f environment.yml
-conda activate prospekt-ai
+conda activate german-grocery-scout
 ```
 
 ### 3. Configure Local Environment
@@ -68,8 +75,7 @@ Create a file named `.env` in the root folder to store your LlamaCloud key (for 
 
 ```env
 # Required for Local CLI usage.
-# (The Web App will ask for this in the UI if not found here)
-GOOGLE_API_KEY=your_gemini_key_here
+
 
 # Optional: Only needed if you want high-quality table extraction
 LLAMA_CLOUD_API_KEY=your_llama_key_here
@@ -140,14 +146,25 @@ python debug_view.py
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+## 🤝 Contact
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+For any questions or feedback, feel free to reach out:
 
-## 📧 Contact
+<p align="center">
+  <a href="https://www.linkedin.com/in/sahandazizi/">
+    <img 
+      src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" 
+      alt="LinkedIn"
+      width="60"
+    >
+  </a>
+  &nbsp;&nbsp;
 
-For questions or support, please open an issue on GitHub.
-
----
-
-Made with ❤️ for smarter grocery shopping in Germany
+  <a href="https://github.com/azizisahand">
+    <img 
+      src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif"
+      alt="GitHub"
+      width="50"
+    >
+  </a>
+</p>
