@@ -1,0 +1,29 @@
+--- Security: Never commit API keys ---
+
+.env
+.streamlit/secrets.toml
+
+--- System & Cache ---
+
+pycache/
+*.pyc
+.DS_Store
+
+--- Data & Storage ---
+
+Keep the 'data' folder structure but ignore the actual PDF files (optional, if they are copyrighted)
+
+If you want to share sample PDFs, remove the next line.
+
+data/*.pdf
+
+Ignore the generated vector store (it's large and should be regenerated locally)
+
+local_storage/
+embedding_cache/
+
+--- Environment ---
+
+venv/
+.venv/
+env/
