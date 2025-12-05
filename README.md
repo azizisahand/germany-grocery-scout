@@ -4,8 +4,6 @@
 
 Meet **AngeBOT** 🤖 (from *Angebot* meaning "offer"), your AI shopping assistant. You can ask AngeBOT questions like *"Wo gibt es diese Woche günstig Butter?"* or *"Welche Angebote hat Lidl?"*, and it will scan the provided PDF brochures to give you accurate answers with source references.
 
-![Retrieval Augmented Generation Pipeline Architecture](media/image1.jpg)
-
 ## 🔒 Privacy & Security Notice
 
 **This repository does NOT contain any API keys.** We value privacy and security. To use AngeBOT, you must provide your own API keys.
