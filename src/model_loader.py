@@ -31,7 +31,11 @@ logger = logging.getLogger(__name__)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def initialise_llm() -> Gemini:
+=======
+def initialise_llm() -> GoogleGenAI:
+>>>>>>> parent of 15bc4e3 (stramlit error)
 =======
 def initialise_llm() -> GoogleGenAI:
 >>>>>>> parent of 15bc4e3 (stramlit error)
