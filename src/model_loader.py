@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def initialise_llm() -> Gemini::
+def initialise_llm() -> Gemini:
     """
     Initialises the Google Gemini LLM using credentials from the environment.
 
