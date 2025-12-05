@@ -215,7 +215,7 @@ def main():
     
     # 1. Setup UI
     inject_custom_css()
-    st.title("🛒 AngeBOT, German Grocery Scout")
+    st.title("🛒 AngeBOT, Grocery Scout")
     st.markdown("Enter your API Key to start chatting with your *Prospekte*.")
 
     # 2. Authentication (API Key Input)
