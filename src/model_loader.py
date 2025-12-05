@@ -11,7 +11,7 @@ import logging
 from typing import Optional
 
 from dotenv import load_dotenv
-from llama_index.llms.gemini import Gemini
+from llama_index.llms.google_genai import GoogleGenAI
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 from src.config import (
@@ -29,12 +29,16 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+<<<<<<< HEAD
 def initialise_llm() -> Gemini:
+=======
+def initialise_llm() -> GoogleGenAI:
+>>>>>>> parent of 15bc4e3 (stramlit error)
     """
     Initialises the Google Gemini LLM using credentials from the environment.
 
     Returns:
-        Gemini: An instance of the Google Gemini model.
+        GoogleGenAI: An instance of the Google Gemini model.
 
     Raises:
         ValueError: If GOOGLE_API_KEY is missing from environment variables.
@@ -51,7 +55,7 @@ def initialise_llm() -> Gemini:
     
     # Note: If you want to configure temperature or tokens, 
     # add them to src/config.py and pass them here.
-    return Gemini(
+    return GoogleGenAI(
         model=LLM_MODEL,
         api_key=api_key
     )
