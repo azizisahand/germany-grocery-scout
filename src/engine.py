@@ -26,7 +26,7 @@ from llama_index.core.chat_engine.types import BaseChatEngine
 from llama_index.core.memory import ChatMemoryBuffer
 from llama_index.core.node_parser import SentenceSplitter, MarkdownNodeParser
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.llms.google_genai import GoogleGenAI
+from llama_index.llms.gemini import Gemini
 from llama_parse import LlamaParse
 
 # Internal imports
@@ -222,14 +222,14 @@ def get_vector_store(embed_model: HuggingFaceEmbedding) -> VectorStoreIndex:
 
 
 def get_chat_engine(
-        llm: GoogleGenAI,
+        llm: Gemini,
         embed_model: HuggingFaceEmbedding
 ) -> BaseChatEngine:
     """
     Constructs the Chat Engine with memory and context.
 
     Args:
-        llm (GoogleGenAI): The Large Language Model.
+        llm (Gemini): The Large Language Model.
         embed_model (HuggingFaceEmbedding): The Embedding Model.
 
     Returns:
