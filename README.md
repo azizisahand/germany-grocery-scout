@@ -9,6 +9,8 @@
 
 **German Grocery Scout** is a Retrieval-Augmented Generation (RAG) tool that helps you find the best deals in German supermarket brochures (*Prospekte*).
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_6gsax06gsax06gsa" src="https://github.com/user-attachments/assets/9d3870fa-8ead-4179-9612-18a57778b678" />
+
 Meet **AngeBOT** 🤖 (from *Angebot* meaning "offer"), your AI shopping assistant. You can ask AngeBOT questions like *"Wo gibt es diese Woche günstig Butter?"* or *"Welche Angebote hat Lidl?"*, and it will scan the provided PDF brochures to give you accurate answers with source references.
 
 ## 🔒 Privacy & Security Notice
