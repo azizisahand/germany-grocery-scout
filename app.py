@@ -25,7 +25,7 @@ from src.engine import get_chat_engine
 from src.model_loader import get_embedding_model, initialise_llm
 
 # --- CONFIGURATION ---
-PAGE_TITLE = "🛒 Prospekt AI"
+PAGE_TITLE = "🛒 AngeBOT, Prospekt AI"
 PAGE_ICON = "🛒"
 LAYOUT = "centered"
 
@@ -198,7 +198,7 @@ def inject_custom_css() -> None:
     )
 
 
-@st.cache_resource(show_spinner="Loading AI Models & Index...")
+@st.cache_resource(show_spinner="Loading AngeBOT Model & Index...")
 def load_rag_engine():
     """
     Initializes the RAG engine.
@@ -215,7 +215,7 @@ def main():
     
     # 1. Setup UI
     inject_custom_css()
-    st.title("🛒 German Grocery Scout")
+    st.title("🛒 AngeBOT, German Grocery Scout")
     st.markdown("Enter your API Key to start chatting with your *Prospekte*.")
 
     # 2. Authentication (API Key Input)
