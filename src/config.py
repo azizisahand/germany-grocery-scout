@@ -48,7 +48,7 @@ EMBEDDING_MODEL_NAME: str = "paraphrase-multilingual-MiniLM-L12-v2"
 
 # Number of text chunks to retrieve from the database per query.
 # Set to 8 (higher than default) to ensure we capture a wide variety of offers.
-SIMILARITY_TOP_K: int = 8
+SIMILARITY_TOP_K: int = 50
 
 # Size of each text chunk in tokens.
 # 512 is chosen to be large enough to contain a whole "Product Box" (Name + Description + Price).
